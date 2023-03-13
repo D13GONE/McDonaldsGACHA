@@ -14,10 +14,9 @@ public class McdonaldsGacha{
             Random rand = new Random();
             ascii = ascii - rand.nextInt(90);
             
-            if(ascii <=0)
+            if(ascii <0)
             {
                 ascii = ascii * -1;
-                ascii = ascii + 1;
             }
         }
         return menu[ascii];
