@@ -8,7 +8,7 @@ public class McdonaldsGacha{
         char firstLetter = Character.toUpperCase(name.charAt(0));
         int ascii = firstLetter;
         int len = menu.length;
-        while(ascii > len)
+        while(ascii >= len)
         {
             
             Random rand = new Random();
